@@ -18,9 +18,8 @@ namespace Poc.EventSourcing.Domain.Models
         }
 
         protected Client() {}
-
-        public string? Name { get; private set; }
-        public string? ClAccountId { get; private set; }
-        public Address? Address { get; private set; }
+        public string Name { get; }
+        public string ClAccountId { get; }
+        public Address Address { get; }
     }
 }
